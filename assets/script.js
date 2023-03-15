@@ -8,16 +8,17 @@ var symbol = ["!", "@", "#", "$", "%", "^", "&", "*", "~", "`", "+","=", "?", ";
 var number = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
 
 // prompts to confirm input
-var uppercaseChecker = 
-var lowercaseChecker =
-var symbolChecker = 
-var number = 
+// var uppercaseChecker = 
+// var lowercaseChecker =
+// var symbolChecker = 
+// var number = 
 
 // Creates prompt to enter value 
-var passwordLength = window.prompt("Please select length between 8 and 128 characters.");
+var passwordValue = window.prompt("Please select length between 8 and 128 characters.");
 // Creates if fuction
-if (passwordLength >=8 && passwordLength <=128) {
-  
+
+if (passwordValue >=8 && passwordValue <=128) {
+  console.log(passwordValue)
 }
 }
 // Writes password
