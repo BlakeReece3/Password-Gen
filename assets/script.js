@@ -1,6 +1,6 @@
 
 // Creates variable for generate id
-var generateBtn = document.querySelector("#generate");
+var createBtn = document.querySelector("#generate");
 
 
 // Writes password
@@ -10,7 +10,7 @@ function writePassword() {
   passwordPrint.value = password;
 }
 // Adds event listener to button
-generateBtn.addEventListener("click", writePassword);
+createBtn.addEventListener("click", writePassword);
 
 // Creates password generating function
 function generatePassword() {
