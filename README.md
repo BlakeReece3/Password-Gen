@@ -8,7 +8,9 @@ This website was made to provide a password generator using different options su
 ![Screen Shot 2023-03-28 at 1 13 20 PM](https://user-images.githubusercontent.com/112834113/228357838-5f1648c6-f989-4db7-a1e2-2848abe3ac3a.png)
 ![Screen Shot 2023-03-28 at 1 13 28 PM](https://user-images.githubusercontent.com/112834113/228357869-a153e081-2ddc-4f00-9c9c-34c9515f7f4a.png)
 ![Screen Shot 2023-03-28 at 1 13 36 PM](https://user-images.githubusercontent.com/112834113/228357921-080e349e-5448-467b-bba6-b23a72d64a07.png)
-
-
+[
+](https://blakereece3.github.io/Password-Gen/)
+# Usage
+When Generate Password Button is clicked, User is asked to select between 8-128 characters. Then user has to choose their answers between lower case, upper case, symbols and numbers. Once choices are selected, they are given a password created with the choices they gave.
 # License
 License in Repo
