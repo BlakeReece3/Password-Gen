@@ -8,10 +8,10 @@ var symbol = ["!", "@", "#", "$", "%", "^", "&", "*", "~", "`", "+","=", "?", ";
 var number = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
 
 // prompts to confirm input
- var uppercaseChecker = confirm('Click OK to include uppercase characters.');
- var lowercaseChecker =confirm('Click OK to include lowercase characters.');
- var symbolChecker = confirm('Click OK to include symbols.');
- var number = confirm('Click OK to include numbers.');
+ var lowercaseCheck =confirm('Click OK to include lowercase characters.');
+ var uppercaseCheck = confirm('Click OK to include uppercase characters.');
+ var symbolCheck = confirm('Click OK to include symbols.');
+ var numberCheck = confirm('Click OK to include numbers.');
 
 // Creates prompt to enter value 
 var passwordValue = window.prompt("Please select length between 8 and 128 characters.");
@@ -29,6 +29,21 @@ function writePassword() {
 }
 // Creates variable for generate id
 var generateBtn = document.querySelector("#generate");
+
+const finalChoices = [];
+
+if (lowercaseCheck === true) {
+  finalChoices.push.apply(finalChoices, lowercase);
+}
+if (uppercaseCheck === true) {
+  finalChoices.push.apply(finalChoices, uppercase);
+}
+if (symbolCheck === true) {
+  finalChoices.push.apply(finalChoices, symbol);
+}
+if (numberCheck === true) {
+  finalChoices.push.apply(finalChoices, number);
+}
 
 // Adds event listener to generate button
 generateBtn.addEventListener("click", writePassword);
